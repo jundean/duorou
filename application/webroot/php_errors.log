@@ -1,0 +1,540 @@
+[01-Jun-2014 16:15:56 PRC] PHP Fatal error:  Call to undefined method application\model\UserModel::getUserInfoByName() in /server/duorou/application/util/UserNamespace.php on line 55
+[01-Jun-2014 16:15:56 PRC] PHP Stack trace:
+[01-Jun-2014 16:15:56 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 16:15:56 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 16:15:56 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 16:15:56 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 16:15:56 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 16:15:56 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 16:15:56 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 16:15:56 PRC] PHP   8. application\util\UserNamespace::loginIn() /server/duorou/application/controller/Index.php:15
+[01-Jun-2014 16:15:56 PRC] PHP   9. application\util\UserNamespace::validUser() /server/duorou/application/util/UserNamespace.php:28
+[01-Jun-2014 18:09:55 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:09:55 PRC] PHP Stack trace:
+[01-Jun-2014 18:09:55 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:09:55 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:09:55 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:09:55 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:09:55 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:09:55 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:09:55 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:09:55 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:09:55 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:09:55 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:09:55 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:09:55 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:09:55 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:09:55 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:09:55 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:09:55 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:09:55 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:10:07 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:10:07 PRC] PHP Stack trace:
+[01-Jun-2014 18:10:07 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:10:07 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:10:07 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:10:07 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:10:07 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:10:07 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:10:07 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:10:07 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:10:07 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:07 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:07 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:07 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:07 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:10:07 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:10:07 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:10:07 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:10:07 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:10:08 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:10:08 PRC] PHP Stack trace:
+[01-Jun-2014 18:10:08 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:10:08 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:10:08 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:10:08 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:10:08 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:10:08 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:10:08 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:10:08 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:10:08 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:08 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:08 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:08 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:08 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:10:08 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:10:08 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:10:08 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:10:08 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:10:08 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:10:08 PRC] PHP Stack trace:
+[01-Jun-2014 18:10:08 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:10:08 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:10:08 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:10:08 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:10:08 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:10:08 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:10:08 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:10:08 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:10:08 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:08 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:08 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:08 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:08 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:10:08 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:10:08 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:10:08 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:10:08 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:10:09 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:10:09 PRC] PHP Stack trace:
+[01-Jun-2014 18:10:09 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:10:09 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:10:09 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:10:09 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:10:09 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:10:09 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:10:09 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:10:09 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:10:09 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:09 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:09 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:09 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:09 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:10:09 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:10:09 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:10:09 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:10:09 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:10:15 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:10:15 PRC] PHP Stack trace:
+[01-Jun-2014 18:10:15 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:10:15 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:10:15 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:10:15 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:10:15 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:10:15 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:10:15 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:10:15 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:10:15 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:15 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:15 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:15 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:15 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:10:15 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:10:15 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:10:15 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:10:15 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:10:42 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:10:42 PRC] PHP Stack trace:
+[01-Jun-2014 18:10:42 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:10:42 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:10:42 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:10:42 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:10:42 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:10:42 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:10:42 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:10:42 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:10:42 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:42 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:10:42 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:42 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:10:42 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:10:42 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:10:42 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:10:42 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:10:42 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:11:09 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:11:09 PRC] PHP Stack trace:
+[01-Jun-2014 18:11:09 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:11:09 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:11:09 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:11:09 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:11:09 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:11:09 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:11:09 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:11:09 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:11:09 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:11:09 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:11:09 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:11:09 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:11:09 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:11:09 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:11:09 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:11:09 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:11:09 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:11:10 PRC] PHP Fatal error:  Undefined constant 'util\form\validator' in /server/duorou/util/form/validator/RegexpConfig.php on line 2
+[01-Jun-2014 18:11:10 PRC] PHP Stack trace:
+[01-Jun-2014 18:11:10 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:11:10 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:11:10 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:11:10 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:11:10 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:11:10 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:11:10 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:11:10 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:11:10 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:11:10 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:11:10 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:11:10 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:11:10 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:11:10 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:11:10 PRC] PHP  15. TestForm->__construct() /server/duorou/util/form/demo/form.php:110
+[01-Jun-2014 18:11:10 PRC] PHP  16. HRRBase::autoload() /server/duorou/util/form/demo/form.php:0
+[01-Jun-2014 18:11:10 PRC] PHP  17. include() /server/duorou/system/HRRBase.php:21
+[01-Jun-2014 18:33:42 PRC] PHP Fatal error:  Class 'util\form\expression\Exception' not found in /server/duorou/util/form/expression/Expression.php on line 18
+[01-Jun-2014 18:33:42 PRC] PHP Stack trace:
+[01-Jun-2014 18:33:42 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:33:42 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:33:42 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:33:42 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:33:42 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:33:42 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:33:42 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:33:42 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:33:42 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:33:42 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:33:42 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:33:42 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:33:42 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:33:42 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:33:42 PRC] PHP  15. TestForm->validate() /server/duorou/util/form/demo/form.php:136
+[01-Jun-2014 18:33:42 PRC] PHP  16. util\form\Form->validate() /server/duorou/util/form/demo/form.php:74
+[01-Jun-2014 18:33:42 PRC] PHP  17. util\form\field\Field->validate() /server/duorou/util/form/Form.php:116
+[01-Jun-2014 18:33:42 PRC] PHP  18. util\form\expression\Expression->__construct() /server/duorou/util/form/field/Field.php:87
+[01-Jun-2014 18:45:51 PRC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /server/duorou/util/form/Form.php on line 116
+[01-Jun-2014 18:45:51 PRC] PHP Stack trace:
+[01-Jun-2014 18:45:51 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:45:51 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:45:51 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:45:51 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:45:51 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:45:51 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:45:51 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:45:51 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:45:51 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:45:51 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:45:51 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:45:51 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:45:51 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:45:51 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:45:51 PRC] PHP  15. HRRBase::autoload() /server/duorou/system/web/template/PhpTemplate.php:0
+[01-Jun-2014 18:48:09 PRC] PHP Fatal error:  Class 'CExpression' not found in /server/duorou/util/form/validator/CompareValidator.php on line 26
+[01-Jun-2014 18:48:09 PRC] PHP Stack trace:
+[01-Jun-2014 18:48:09 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:48:09 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:48:09 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:48:09 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:48:09 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:48:09 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:48:09 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:48:09 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:48:09 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:48:09 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:48:09 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:48:09 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:48:09 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:48:09 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:48:09 PRC] PHP  15. TestForm->validate() /server/duorou/util/form/demo/form.php:136
+[01-Jun-2014 18:48:09 PRC] PHP  16. util\form\Form->validate() /server/duorou/util/form/demo/form.php:74
+[01-Jun-2014 18:48:09 PRC] PHP  17. util\form\field\Field->validate() /server/duorou/util/form/Form.php:116
+[01-Jun-2014 18:48:09 PRC] PHP  18. util\form\validator\FieldValidator->validate() /server/duorou/util/form/field/Field.php:109
+[01-Jun-2014 18:48:09 PRC] PHP  19. util\form\validator\CompareValidator->validate() /server/duorou/util/form/validator/FieldValidator.php:111
+[01-Jun-2014 18:52:41 PRC] PHP Fatal error:  Class 'CExpression' not found in /server/duorou/util/form/validator/CompareValidator.php on line 26
+[01-Jun-2014 18:52:41 PRC] PHP Stack trace:
+[01-Jun-2014 18:52:41 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:52:41 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:52:41 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:52:41 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:52:41 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:52:41 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:52:41 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:52:41 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:52:41 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:52:41 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:52:41 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:52:41 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:52:41 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:52:41 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:52:41 PRC] PHP  15. TestForm->validate() /server/duorou/util/form/demo/form.php:136
+[01-Jun-2014 18:52:41 PRC] PHP  16. util\form\Form->validate() /server/duorou/util/form/demo/form.php:74
+[01-Jun-2014 18:52:41 PRC] PHP  17. util\form\field\Field->validate() /server/duorou/util/form/Form.php:116
+[01-Jun-2014 18:52:41 PRC] PHP  18. util\form\validator\FieldValidator->validate() /server/duorou/util/form/field/Field.php:109
+[01-Jun-2014 18:52:41 PRC] PHP  19. util\form\validator\CompareValidator->validate() /server/duorou/util/form/validator/FieldValidator.php:111
+[01-Jun-2014 18:56:47 PRC] PHP Fatal error:  Class 'CExpression' not found in /server/duorou/util/form/validator/CompareValidator.php on line 26
+[01-Jun-2014 18:56:47 PRC] PHP Stack trace:
+[01-Jun-2014 18:56:47 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:56:47 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:56:47 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:56:47 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:56:47 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:56:47 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:56:47 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:56:47 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:56:47 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:56:47 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:56:47 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:56:47 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:56:47 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:56:47 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:56:47 PRC] PHP  15. TestForm->validate() /server/duorou/util/form/demo/form.php:136
+[01-Jun-2014 18:56:47 PRC] PHP  16. util\form\Form->validate() /server/duorou/util/form/demo/form.php:74
+[01-Jun-2014 18:56:47 PRC] PHP  17. util\form\field\Field->validate() /server/duorou/util/form/Form.php:116
+[01-Jun-2014 18:56:47 PRC] PHP  18. util\form\validator\FieldValidator->validate() /server/duorou/util/form/field/Field.php:109
+[01-Jun-2014 18:56:47 PRC] PHP  19. util\form\validator\CompareValidator->validate() /server/duorou/util/form/validator/FieldValidator.php:111
+[01-Jun-2014 18:57:12 PRC] PHP Fatal error:  Class 'CExpression' not found in /server/duorou/util/form/validator/CompareValidator.php on line 26
+[01-Jun-2014 18:57:12 PRC] PHP Stack trace:
+[01-Jun-2014 18:57:12 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:57:12 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:57:12 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:57:12 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:57:12 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:57:12 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:57:12 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:57:12 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:57:12 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:57:12 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:57:12 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:57:12 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:57:12 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:57:12 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:57:12 PRC] PHP  15. TestForm->validate() /server/duorou/util/form/demo/form.php:136
+[01-Jun-2014 18:57:12 PRC] PHP  16. util\form\Form->validate() /server/duorou/util/form/demo/form.php:74
+[01-Jun-2014 18:57:12 PRC] PHP  17. util\form\field\Field->validate() /server/duorou/util/form/Form.php:116
+[01-Jun-2014 18:57:12 PRC] PHP  18. util\form\validator\FieldValidator->validate() /server/duorou/util/form/field/Field.php:109
+[01-Jun-2014 18:57:12 PRC] PHP  19. util\form\validator\CompareValidator->validate() /server/duorou/util/form/validator/FieldValidator.php:111
+[01-Jun-2014 18:57:13 PRC] PHP Fatal error:  Class 'CExpression' not found in /server/duorou/util/form/validator/CompareValidator.php on line 26
+[01-Jun-2014 18:57:13 PRC] PHP Stack trace:
+[01-Jun-2014 18:57:13 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[01-Jun-2014 18:57:13 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[01-Jun-2014 18:57:13 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[01-Jun-2014 18:57:13 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[01-Jun-2014 18:57:13 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[01-Jun-2014 18:57:13 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[01-Jun-2014 18:57:13 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[01-Jun-2014 18:57:13 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[01-Jun-2014 18:57:13 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:57:13 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[01-Jun-2014 18:57:13 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:57:13 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[01-Jun-2014 18:57:13 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[01-Jun-2014 18:57:13 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[01-Jun-2014 18:57:13 PRC] PHP  15. TestForm->validate() /server/duorou/util/form/demo/form.php:136
+[01-Jun-2014 18:57:13 PRC] PHP  16. util\form\Form->validate() /server/duorou/util/form/demo/form.php:74
+[01-Jun-2014 18:57:13 PRC] PHP  17. util\form\field\Field->validate() /server/duorou/util/form/Form.php:116
+[01-Jun-2014 18:57:13 PRC] PHP  18. util\form\validator\FieldValidator->validate() /server/duorou/util/form/field/Field.php:109
+[01-Jun-2014 18:57:13 PRC] PHP  19. util\form\validator\CompareValidator->validate() /server/duorou/util/form/validator/FieldValidator.php:111
+[04-Jun-2014 22:22:13 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:22:13 PRC] PHP Stack trace:
+[04-Jun-2014 22:22:13 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:22:13 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:22:13 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:22:13 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:22:13 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:22:13 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:22:13 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:22:13 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:22:13 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:22:13 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:22:13 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:22:13 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:22:13 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:22:13 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:22:13 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:22:13 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:22:23 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:22:23 PRC] PHP Stack trace:
+[04-Jun-2014 22:22:23 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:22:23 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:22:23 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:22:23 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:22:23 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:22:23 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:22:23 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:22:23 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:22:23 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:22:23 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:22:23 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:22:23 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:22:23 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:22:23 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:22:23 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:22:23 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:22:55 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:22:55 PRC] PHP Stack trace:
+[04-Jun-2014 22:22:55 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:22:55 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:22:55 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:22:55 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:22:55 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:22:55 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:22:55 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:22:55 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:22:55 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:22:55 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:22:55 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:22:55 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:22:55 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:22:55 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:22:55 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:22:55 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:17 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:17 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:17 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:17 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:17 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:17 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:17 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:17 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:17 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:17 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:17 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:17 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:17 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:17 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:17 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:17 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:17 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:17 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:23 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:23 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:23 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:23 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:23 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:23 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:23 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:23 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:23 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:23 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:23 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:23 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:23 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:23 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:23 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:23 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:23 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:23 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:28 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:28 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:28 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:28 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:28 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:28 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:28 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:28 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:28 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:28 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:28 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:28 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:28 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:28 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:28 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:28 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:28 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:28 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:28 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:28 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:28 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:28 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:28 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:28 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:28 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:28 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:28 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:28 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:28 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:28 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:28 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:28 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:28 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:28 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:28 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:28 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:29 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:29 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:29 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:29 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:29 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:29 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:29 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:29 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:29 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:29 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:29 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:29 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:29 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:29 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:29 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:29 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:29 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:29 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:29 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:29 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:29 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:29 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:29 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:29 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:29 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:29 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:29 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:29 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:29 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:29 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:29 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:29 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:29 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:29 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:29 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:29 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:34 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:34 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:34 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:34 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:34 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:34 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:34 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:34 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:34 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:34 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:34 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:34 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:34 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:34 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:34 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:34 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:34 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:34 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:42 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:42 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:42 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:42 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:42 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:42 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:42 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:42 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:42 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:42 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:42 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:42 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:42 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:42 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:42 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:42 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:42 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:42 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
+[04-Jun-2014 22:23:46 PRC] PHP Fatal error:  Call to a member function getRules() on a non-object in /server/duorou/application/helper/get_data_rules_helper.php on line 21
+[04-Jun-2014 22:23:46 PRC] PHP Stack trace:
+[04-Jun-2014 22:23:46 PRC] PHP   1. {main}() /server/duorou/application/webroot/index.php:0
+[04-Jun-2014 22:23:46 PRC] PHP   2. CApplication->run() /server/duorou/application/webroot/index.php:24
+[04-Jun-2014 22:23:46 PRC] PHP   3. CWebApplication->processRequest() /server/duorou/system/base/CApplication.php:94
+[04-Jun-2014 22:23:46 PRC] PHP   4. CWebApplication->runController() /server/duorou/system/web/CWebApplication.php:6
+[04-Jun-2014 22:23:46 PRC] PHP   5. CController->run() /server/duorou/system/web/CWebApplication.php:13
+[04-Jun-2014 22:23:46 PRC] PHP   6. CController->runAction() /server/duorou/system/web/CController.php:7
+[04-Jun-2014 22:23:46 PRC] PHP   7. Index->testAction() /server/duorou/system/web/CController.php:26
+[04-Jun-2014 22:23:46 PRC] PHP   8. CController->display() /server/duorou/application/controller/Index.php:30
+[04-Jun-2014 22:23:46 PRC] PHP   9. CTemplateAdapter->display() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:46 PRC] PHP  10. CTemplateAdapter->__call() /server/duorou/system/web/CController.php:30
+[04-Jun-2014 22:23:46 PRC] PHP  11. call_user_func_array() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:46 PRC] PHP  12. PhpTemplate->display() /server/duorou/system/web/template/CTemplateAdapter.php:62
+[04-Jun-2014 22:23:46 PRC] PHP  13. PhpTemplate->fetch() /server/duorou/system/web/template/PhpTemplate.php:55
+[04-Jun-2014 22:23:46 PRC] PHP  14. include() /server/duorou/system/web/template/PhpTemplate.php:18
+[04-Jun-2014 22:23:46 PRC] PHP  15. PhpTemplate->helper() /server/duorou/util/form/demo/form.php:191
+[04-Jun-2014 22:23:46 PRC] PHP  16. get_data_rules() /server/duorou/system/web/template/PhpTemplate.php:34
